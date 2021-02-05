@@ -19,7 +19,7 @@
 <body>
 
     <header class="sticky-top">
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar text-light bg-primary">
             <div class="container-fluid">
                 <span class="navbar-text">
                     Navbar
@@ -31,12 +31,12 @@
 
     <main>
 
-        <div class="container">
+        <div class="container-fluid">
 
             <!-- first row -->
             <!-- bg-image needs to extend to total width of page? -->
             <div class="row bg-image">
-                <div class="col-4 p-5">
+                <div class="col-md-4 col-sm-12 p-5">
                     <div class="card text-left">
                         <div class="card-body">
                             <h4 class="card-title">Sign Up!</h4>
@@ -52,7 +52,7 @@
                     <!--add button check box w/text  -->
                 </div>
 
-                <div class="col-6 text-light p-5">
+                <div class="col-md-6 text-light p-5">
                     <!-- add left side border set col to null on sm screen-->
                     <h2>Text Over Image</h2>
                     <p>Here is some text over a background image.</p>
@@ -60,29 +60,29 @@
             </div>
 
             <!-- second row -->
-            <div class="row bg-light">
-                <div class="col p-5">
+            <div class="row bg-primary">
+                <div class="col-md-6 col-sm-12 p-5 text-light">
                     <h2>Text</h2>
                     <h3>Text</h3>
                     <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata
                         corpora quaeritis. Summus brains sit​​, morbo vel maleficia? Sicut zeder apathetic malus voodoo.
                     </p>
                 </div>
-                <!-- use "absolute" to position card-->
-                <div class="col">
+
+                <div class="col-md-6 col-sm-12">
                     <div class="card float-card">
                         <div class="card-body">
-                            <p><i class="fa fa-shield" aria-hidden="true">Zombie ipsum viral inferno, nam rick
+                            <p><i class="fa fa-shield" aria-hidden="true"> Zombie ipsum viral inferno, nam rick
                                     grimes</i></p>
-                            <p><i class="fa fa-superpowers" aria-hidden="true">Zombie ipsum viral inferno, nam rick
+                            <p><i class="fa fa-superpowers" aria-hidden="true"> Zombie ipsum viral inferno, nam rick
                                     grimes</i></p>
-                            <p><i class="fa fa-shield" aria-hidden="true">Zombie ipsum viral inferno, nam rick
+                            <p><i class="fa fa-shield" aria-hidden="true"> Zombie ipsum viral inferno, nam rick
                                     grimes</i></p>
-                            <p><i class="fa fa-superpowers" aria-hidden="true">Zombie ipsum viral inferno, nam rick
+                            <p><i class="fa fa-superpowers" aria-hidden="true"> Zombie ipsum viral inferno, nam rick
                                     grimes</i></p>
-                            <p><i class="fa fa-shield" aria-hidden="true">Zombie ipsum viral inferno, nam rick
+                            <p><i class="fa fa-shield" aria-hidden="true"> Zombie ipsum viral inferno, nam rick
                                     grimes</i></p>
-                            <p><i class="fa fa-superpowers" aria-hidden="true">Zombie ipsum viral inferno, nam rick
+                            <p><i class="fa fa-superpowers" aria-hidden="true"> Zombie ipsum viral inferno, nam rick
                                     grimes</i></p>
                         </div>
                     </div>
@@ -91,11 +91,11 @@
 
             <!-- third row -->
             <div class="row">
-                <div class="col-4 p-5">
+                <div class="col-md-4 col-sm-12 p-5">
 
                     <img class="img-fluid" src="https://picsum.photos/id/684/600/400" alt="random">
                 </div>
-                <div class="col-8 p-5 align-self-center">
+                <div class="col-md-8 col-sm-12 p-5 align-self-center">
                     <h2><i class="fa fa-shield" aria-hidden="true"></i> text</h2>
                     <h2>text</h2>
                     <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum</p>
@@ -108,7 +108,7 @@
 
             <!-- fourth row -->
             <div class="row bg-light justify-content-center align-items-center p-5">
-                <div class="col-3">
+                <div class="col-md-3 col-sm-12">
                     <div class="card text-left">
                         <img src="https://picsum.photos/id/684/600/400" alt="">
                         <div class="card-body">
@@ -118,7 +118,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3 col-sm-12">
                     <div class="card text-left">
                         <img src="https://picsum.photos/id/684/600/400" alt="">
                         <div class="card-body">
@@ -129,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3 col-sm-12">
                     <div class="card text-left">
                         <img src="https://picsum.photos/id/684/600/400" alt="">
                         <div class="card-body">
@@ -142,8 +142,12 @@
             </div>
 
             <!-- fith row -->
-            <div class="row">
-
+            <div class="row bg-primary">
+                <div class="col text-light m-5">
+                    <h2>Text</h2>
+                    <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata
+                        corpora quaeritis. Summus brains sit​​.</p>
+                </div>
             </div>
 
         </div>
@@ -154,7 +158,11 @@
 
 
     <footer>
-
+        <div class="row">
+            <div class="col text-primary text-center p-2">
+                <h5>Zombie ipsum reversus ab viral inferno, nam rick grimes malum</h5>
+            </div>
+        </div>
     </footer>
 
     <!-- Optional JavaScript -->

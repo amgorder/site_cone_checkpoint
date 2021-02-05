@@ -5,7 +5,8 @@
 .bg-image{
     background-image: url("https://picsum.photos/id/684/600/400");
     height: 50vh;
-    background-color: darkgray;
+    background-size: cover;
+    background-position: center;
     }
 
 
