@@ -10,11 +10,14 @@
     background-position: center;
     }
 
-.float-card{
-  position: absolute;
-  top: 35px;
-  right: 20px;
-}
+    @media (min-width: 768px) {
+        .float-card{
+            position: absolute;
+            top: 35px;
+            right: 20px;
+          }
+     }
+
 
 @media (max-width: 768px) {
     .disappear{
