@@ -10,13 +10,6 @@
     background-position: center;
     }
 
-.blk-box {
-    width: 300px;
-    border: 15px solid black;
-    padding: 50px;
-    margin: 20px;
-}
-
 .float-card{
   position: absolute;
   top: 35px;
@@ -28,7 +21,6 @@
         display: none;
     }
  }
-
 
  @media (max-width: 768px) {
     .first{
