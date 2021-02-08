@@ -1,6 +1,7 @@
 
-
-
+.font{
+    font-family: 'Bebas Neue', cursive;
+}
 
 .bg-image{
     background-image: url("https://picsum.photos/id/684/600/400");
